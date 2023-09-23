@@ -12,9 +12,9 @@ function App() {
   return (
     <div>
       <Hero />
-      <DesktopEleven />
-      <DesktopOne />
       <DesktopTen />
+      <DesktopOne />
+      <DesktopEleven />
       <Faq />
       <Revolution />
       <Footer />
