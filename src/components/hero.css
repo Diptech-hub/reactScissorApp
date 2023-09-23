@@ -1,0 +1,210 @@
+.header {
+    background-image: linear-gradient(#f6f4e7, white);
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 140px;
+    justify-content: center;
+    padding-top: 12px;
+  }
+  
+  .headlist > ul :first-child {
+    color: #0065fe;
+    font-family: "Poppins";
+  }
+  
+  .headlist > ul :nth-child(2) > img {
+    color: #141414;
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    top: 31px;
+    left: 41.6%;
+  }
+  
+  .headlist > ul,
+  .headlist > label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    list-style-type: none;
+    width: 504px;
+    height: 24px;
+    font-family: "Poppins";
+  }
+  
+  select {
+    font-size: 0.9rem;
+    background-color: #f6f4e7;
+    border-width: 0;
+  }
+  
+  .log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    color: #0065fe;
+  }
+  
+  .log > p {
+    font-size: 16px;
+    font-family: "Poppins";
+    line-height: 19px;
+  }
+  
+  .log > button {
+    width: 142px;
+    height: 44px;
+    border-radius: 100px;
+    border-width: 0;
+    gap: 10px;
+    left: 69px;
+    background-color: #0065fe;
+    color: white;
+    font-family: "Poppins";
+  }
+  
+  .frame1650 {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 246px;
+    margin-right: 246px;
+  }
+  
+  .optframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .optimize > h3 {
+    color: #141414;
+    text-align: center;
+    font-size: 36px;
+    line-height: 74px;
+    font-family: "Poppins";
+  }
+  
+  .optimize > img {
+    position: absolute;
+    right: 510px;
+  }
+  
+  .optframe > p {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins";
+    line-height: 28px;
+    margin-top: 20px;
+  }
+  
+  .btnsign {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  
+  .btnsign > button {
+    display: flex;
+    width: 142px;
+    height: 44px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--primary-300-base, #0065fe);
+    border-width: 0;
+    color: white;
+    font-family: "Poppins";
+  }
+  
+  .btnsign > a {
+    color: var(--primary-300-base, #0065fe);
+    font-size: 16px;
+    font-family: "Poppins";
+  }
+  
+  .group2 {
+    width: 833px;
+    height: 336.568px;
+    flex-shrink: 0;
+    margin: 0%;
+  }
+  
+  .link {
+    display: inline-flex;
+    padding: 20px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 24px;
+    border: 0.5px solid var(--primary-400, #005ae2);
+    background: rgba(254, 254, 254, 0.1);
+    backdrop-filter: blur(106px);
+    margin-left: 434px;
+    margin-right: 238px;
+    margin-bottom: 0%;
+    background-image: linear-gradient(right #ebf0f4, white);
+  }
+  
+  .vector2 {
+    position: absolute;
+    width: 190.545px;
+    height: 201.202px;
+    transform: rotate(-29.822deg);
+    flex-shrink: 0;
+    margin-left: 369px;
+    top: 520px;
+    left: 40px;
+  }
+  
+  .group3 {
+    width: 100%;
+    height: 93px;
+    flex-shrink: 0;
+  }
+  
+  .group3 :first-child {
+    position: absolute;
+    width: 956px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 956px;
+    background: linear-gradient(
+      180deg,
+      rgba(226, 233, 240, 0.7) 10.68%,
+      rgba(220, 228, 235, 0.7) 44.01%,
+      rgba(226, 233, 240, 0) 100%
+    );
+    box-shadow: 0px 4px 4px 0px rgba(18, 36, 89, 0.35);
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    margin-left: 156px;
+    margin-right: 128px;
+  }
+  
+  .group3 :nth-child(2) {
+    position: absolute;
+    width: 100%;
+    flex-shrink: 0;
+  }
+  

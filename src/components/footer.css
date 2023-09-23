@@ -1,0 +1,154 @@
+.footer {
+    width: 100%;
+    height: 561px;
+    background: var(--neutral-white, #fff);
+  }
+  
+  .imgfoot1 {
+    position: absolute;
+    top: 4600px;
+    opacity: 0.8;
+  }
+  
+  .footerbody {
+    display: flex;
+    padding-top: 95px;
+    justify-content: center;
+  }
+  
+  .socials {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .socials :first-child {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .socials :nth-child(2) {
+    display: flex;
+    padding: 0px 8px;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  
+  .footermain {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    list-style-type: none;
+    padding-left: 39px;
+  }
+  
+  .f1,
+  .f2,
+  .f3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+  }
+  
+  .f4 {
+    display: flex;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .whysciccors,
+  .resources,
+  .solutions,
+  .products,
+  .legal,
+  .company {
+    display: flex;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .features {
+    display: flex;
+    padding: 10px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .whysciccors > p,
+  .resources > p,
+  .solutions > p,
+  .features > p,
+  .products > p,
+  .legal > p,
+  .company > p {
+    color: var(--neutral-900, #071827);
+  
+    /* H4/Bold */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  
+  .whysciccors > li,
+  .resources > li,
+  .solutions > li,
+  .features > li,
+  .products > li,
+  .legal > li,
+  .company > li {
+    color: var(--neutral-800, #112232);
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .whysciccors {
+    margin-bottom: 56px;
+  }
+  
+  .solutions {
+    margin-bottom: 24px;
+  }
+  
+  .products {
+    margin-bottom: 56px;
+  }
+  
+  .imgfoot2 {
+    position: absolute;
+    right: 1px;
+    top: 4785px;
+  }
+  
+  .term {
+    position: absolute;
+    display: inline-flex;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: 900px;
+    margin-top: 23px;
+  }
+  
+  .term > h6 {
+    color: var(--neutral-800, #112232);
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+  
+  .term > img {
+    width: 0px;
+    height: 12px;
+    color: #112232;
+  }
+  
